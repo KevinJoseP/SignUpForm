@@ -1,4 +1,12 @@
+html
+{
+    font-family: 'Forum', cursive;
+}
 
+.br
+{
+    border: 2px solid red;
+}
 
 #main-section
 {
@@ -16,6 +24,8 @@
     height: 80vh;
     width: 80vw;
     display: flex;
+    border-radius: 50px;
+    box-shadow: 0 0 30px black;
 }
 
 .content-image
@@ -44,6 +54,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .img-style
@@ -59,18 +70,102 @@ h1
     color: rgb(200, 153, 91);
     font-family: 'Forum', cursive;
     font-size: 2.5rem;
+    text-align: center;
 }
 
-p
+.formDescr
 {
-    width: 60%;
+    width: 80%;
     color: rgb(228, 198, 158);
     font-family: 'Forum', cursive;
     font-size: 1rem;
+    text-align: center;
+    padding-bottom: 3rem;
 }
 
 legend
 {
     color: rgb(228, 198, 158);
     font-family: 'Forum', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.input-section
+{
+    width: 80%;
+}
+
+
+.form_input
+{
+    border: 2px solid #1a1918;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 30rem;
+    font-family: 'Forum', cursive;
+    font-size: 1rem;
+    color: blanchedalmond;
+    outline: none;
+    transition: all 160ms ease-in;
+}
+
+.form_input:hover
+{
+    border-color: #dbbb76;
+}
+
+.form_input:focus
+{
+    border-color: #9b7931;
+}
+.input-group
+{
+    position: relative;
+}
+
+.form_label
+{
+    position: absolute;
+    left: 1rem;
+    top: 0.6rem;
+}
+
+fieldset
+{
+    border-radius: 20px;
+}
+
+.existingUser
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signInP
+{
+    color: rgb(228, 198, 158);
+    font-family: 'Forum', cursive;
+    font-size: 1rem;
+}
+
+.signInLink
+{
+    
+    color: hotpink;
+    padding-left: 5px;
+}
+
+.submitButton
+{
+    margin: 1rem;
+    width: 10rem;
+    font-size: 2rem;
+    height: 3rem;
+    background-color: rgb(78, 119, 1);
+    color: white;
+    border-radius: 10px;
 }

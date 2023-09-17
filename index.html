@@ -15,30 +15,50 @@
     <section id="main-section">
         <div class="sign-up-wizard">
             <div class="form-section">
-                <h1>Awaken Your Palate with the Elixir of Spices!</h1>
-                <p>Let's Embark on a Flavorful Journey Together, Elevating Your Culinary Delights to New Heights</p>
+                <h1 class="">Awaken Your Palate with the Elixir of Spices!</h1>
+                <p class="formDescr">Let's Embark on a Flavorful Journey Together, Elevating Your Culinary Delights to New Heights</p>
                 <fieldset class="input-section">
                     <legend>Join Us!</legend>
                     <form action="">
-                        <input type="text" id="firstName">
-                        <label for="firstName">First Name</label>
-                        
-                        <input type="text" id="lastName">
-                        <label for="lastName">Last Name</label>
-                        
-                        <input type="email" id="emailId">
-                        <label for="emailId">Email-Id</label>
+                        <div class="grouping">
+                            <div class="input-group">
+                                <input type="text" id="firstName" class="form_input" autocomplete="off">
+                                <label for="firstName" class="form_label">First Name</label>
+                            </div>
+                            
+                            <div class="input-group">
+                                <input type="text" id="lastName" class="form_input">
+                                <label for="lastName" class="form_label">Last Name</label>
+                            </div>
 
-                        <input type="text" id="phone">
-                        <label for="phone">Phone Number</label>
+                            <div class="input-group">
+                                <input type="email" id="emailId" class="form_input">
+                                <label for="emailId" class="form_label">Email-Id</label>
+                            </div>
+                            
+                            <div class="input-group">
+                                <input type="text" id="phone" class="form_input">
+                                <label for="phone" class="form_label">Phone Number</label>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="password" id="password" class="form_input">
+                            <label for="password" class="form_label">Password</label>
+                        </div>
                         
-                        <input type="password" id="password">
-                        <label for="password">Password</label>
-                        
-                        <input type="password" id="password2">
-                        <label for="password2">Confirm Password</label>
+                        <div class="input-group">
+                            <input type="password" id="password2" class="form_input">
+                            <label for="password2" class="form_label">Confirm Password</label>
+                        </div>
+
+                        <button class="submitButton">Submit</button>
                     </form>
                 </fieldset>
+                <div class="existingUser">
+                    <p class="signInP">Already a user?<a href="" class="signInLink">Sign In!</a></p>
+                    
+                </div>
             </div>
             <div class="content-image">
                 <img src="./images/chilli_logo.png" alt="chilli image" class="img-style">
