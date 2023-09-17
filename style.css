@@ -1,0 +1,76 @@
+
+
+#main-section
+{
+    background-color: rgba(189, 120, 8, 0.753);
+    
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-wizard
+{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+}
+
+.content-image
+{
+    background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:rgba(255, 171, 46, 0.616);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.form-section
+{
+    background-color: #333126;
+    width: 60%;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-style
+{
+    width: 90%;
+    height: auto;
+    filter: drop-shadow(0 0 4px #cfa54b);
+}
+
+h1
+{
+    width: 60%;
+    color: rgb(200, 153, 91);
+    font-family: 'Forum', cursive;
+    font-size: 2.5rem;
+}
+
+p
+{
+    width: 60%;
+    color: rgb(228, 198, 158);
+    font-family: 'Forum', cursive;
+    font-size: 1rem;
+}
+
+legend
+{
+    color: rgb(228, 198, 158);
+    font-family: 'Forum', cursive;
+}
