@@ -15,44 +15,48 @@
     <section id="main-section">
         <div class="sign-up-wizard">
             <div class="form-section">
-                <h1 class="">Awaken Your Palate with the Elixir of Spices!</h1>
-                <p class="formDescr">Let's Embark on a Flavorful Journey Together, Elevating Your Culinary Delights to New Heights</p>
+                <h1 class="">Awaken your palate with the elixir of spices!</h1>
+                <p class="formDescr">Let's embark on a flavorful journey together, elevating your culinary delights to new heights!</p>
                 <fieldset class="input-section">
                     <legend>Join Us!</legend>
                     <form action="">
                         <div class="grouping">
                             <div class="input-group">
-                                <input type="text" id="firstName" class="form_input" autocomplete="off">
-                                <label for="firstName" class="form_label">First Name</label>
+                                <input type="text" id="firstName" class="form_input" autocomplete="off" placeholder=" " required>
+                                <label for="firstName" class="form_label">*First Name</label>
                             </div>
                             
                             <div class="input-group">
-                                <input type="text" id="lastName" class="form_input">
-                                <label for="lastName" class="form_label">Last Name</label>
-                            </div>
-
-                            <div class="input-group">
-                                <input type="email" id="emailId" class="form_input">
-                                <label for="emailId" class="form_label">Email-Id</label>
-                            </div>
-                            
-                            <div class="input-group">
-                                <input type="text" id="phone" class="form_input">
-                                <label for="phone" class="form_label">Phone Number</label>
+                                <input type="text" id="lastName" class="form_input" autocomplete="off" placeholder=" " required>
+                                <label for="lastName" class="form_label">*Last Name</label>
                             </div>
                         </div>
 
+                        <div class="grouping">
+                            <div class="input-group">
+                                <input type="email" id="emailId" class="form_input" autocomplete="off" placeholder=" " required>
+                                <label for="emailId" class="form_label">*Email-Id</label>
+                            </div>
+                            
+                            <div class="input-group">
+                                <input type="text" id="phone" class="form_input" autocomplete="off" placeholder=" " pattern="[0-9]{10}" title="Give a 10 digit valid phone number" required>
+                                <label for="phone" class="form_label">*Phone Number</label>
+                            </div>
+                        </div>
+
+                    <div class="grouping">
                         <div class="input-group">
-                            <input type="password" id="password" class="form_input">
-                            <label for="password" class="form_label">Password</label>
+                            <input type="password" id="password" class="form_input" autocomplete="off" minlength="4" maxlength="15" placeholder=" " required>
+                            <label for="password" class="form_label">*Password</label>
                         </div>
                         
                         <div class="input-group">
-                            <input type="password" id="password2" class="form_input">
-                            <label for="password2" class="form_label">Confirm Password</label>
+                            <input type="password" id="password2" class="form_input" autocomplete="off"  minlength="4" maxlength="15" placeholder=" " required>
+                            <label for="password2" class="form_label">*Confirm Password</label>
                         </div>
+                    </div>
 
-                        <button class="submitButton">Submit</button>
+                        <button class="submitButton br">Submit</button>
                     </form>
                 </fieldset>
                 <div class="existingUser">
@@ -65,5 +69,6 @@
             </div>
         </div>
     </section>
+    <script src="./script.js"></script>
 </body>
 </html>
